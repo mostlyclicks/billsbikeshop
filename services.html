@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill's Bike Shop - Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        nav a.active {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.25rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        .service-list {
+            display: grid;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .service-item {
+            padding: 1.5rem;
+            border-left: 4px solid #3498db;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Our Services</h1>
+        
+        <p>Bill's Bike Shop offers a comprehensive range of services to keep your bike in top condition and ensure you have the best riding experience possible.</p>
+
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Bike Sales</h3>
+                <p>We stock a wide variety of bicycles from leading manufacturers. Our knowledgeable staff can help you select the perfect bike based on your riding style, terrain preferences, and budget. We carry road bikes, mountain bikes, hybrid bikes, and specialty models.</p>
+            </div>
+
+            <div class="service-item">
+                <h3>Maintenance & Repair</h3>
+                <p>Our expert technicians provide professional maintenance and repair services. Whether you need a simple tune-up, brake adjustment, gear repair, or complete overhaul, we've got you covered. We use only quality parts and perform work with attention to detail.</p>
+            </div>
+
+            <div class="service-item">
+                <h3>Custom Builds</h3>
+                <p>Looking for something unique? We offer custom bike building services where we can assemble the perfect bike tailored to your specific needs and preferences. Work with our experts to choose components, colors, and features that match your vision.</p>
+            </div>
+
+            <div class="service-item">
+                <h3>Accessories & Parts</h3>
+                <p>From helmets and lights to chains and derailleurs, we stock a full range of bike accessories and replacement parts. Our staff can help you find exactly what you need to enhance your riding experience and keep your bike functioning optimally.</p>
+            </div>
+
+            <div class="service-item">
+                <h3>Wheel Building & Truing</h3>
+                <p>Need a custom wheel built or your existing wheels trued? Our specialists use precision equipment to ensure your wheels are perfectly balanced and true. This service extends wheel life and improves overall ride quality.</p>
+            </div>
+
+            <div class="service-item">
+                <h3>Fitting Services</h3>
+                <p>A proper bike fit is essential for comfort and performance. Our trained fitting specialists can adjust your bike to match your body geometry and riding style, reducing the risk of injury and enhancing your enjoyment on the road or trail.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bill's Bike Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

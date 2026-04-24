@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill's Bike Shop - About Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        nav a.active {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.25rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        .team-section {
+            margin-top: 2rem;
+            padding: 2rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .team-member {
+            margin-bottom: 2rem;
+        }
+
+        .team-member h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .team-member p {
+            margin: 0.5rem 0;
+        }
+
+        .values {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .value-box {
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .value-box h3 {
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>About Bill's Bike Shop</h1>
+        
+        <p>Bill's Bike Shop has been a cornerstone of the local cycling community for over two decades. What started as a small passion project has grown into a fully-fledged bike shop that serves riders of all ages and abilities across the region.</p>
+
+        <p>Our founder, Bill Henderson, opened the shop with a simple mission: to provide cyclists with high-quality bikes, expert service, and genuine support from people who truly understand and love cycling. Today, that same commitment guides everything we do.</p>
+
+        <h2>Our Story</h2>
+
+        <p>Bill's journey in cycling began in his teenage years, when a simple bike ride sparked a lifelong passion. Over the years, he became an expert mechanic and enthusiast, working with bikes both professionally and as a hobby. When the opportunity came to open his own shop, he jumped at the chance.</p>
+
+        <p>From humble beginnings in a small storefront, we've expanded our facilities and inventory to better serve our growing customer base. We've invested in modern repair equipment, expanded our product selection, and built a team of passionate cycling professionals who share Bill's vision.</p>
+
+        <h2>Our Values</h2>
+
+        <div class="values">
+            <div class="value-box">
+                <h3>Quality</h3>
+                <p>We believe in quality over quantity. Every bike and component we stock is carefully selected to meet our high standards.</p>
+            </div>
+            <div class="value-box">
+                <h3>Community</h3>
+                <p>We're not just a shop—we're part of the local cycling community. We sponsor local events and support riders of all levels.</p>
+            </div>
+            <div class="value-box">
+                <h3>Expertise</h3>
+                <p>Our team brings decades of combined experience. We're here to educate and empower cyclists to make informed decisions.</p>
+            </div>
+        </div>
+
+        <h2>Meet Our Team</h2>
+
+        <div class="team-section">
+            <div class="team-member">
+                <h3>Bill Henderson - Founder & Owner</h3>
+                <p><strong>Role:</strong> Owner, Master Mechanic</p>
+                <p>Bill is the heart and soul of the shop. With over 30 years of cycling experience, he's the go-to person for complex repairs and custom builds. When not in the shop, he's out on the trails or roads testing the latest gear.</p>
+            </div>
+
+            <div class="team-member">
+                <h3>Sarah Mitchell - Service Manager</h3>
+                <p><strong>Role:</strong> Service Manager, Bike Fitting Specialist</p>
+                <p>Sarah oversees all repair and maintenance operations and specializes in professional bike fitting. Her attention to detail ensures every bike that leaves our shop is in perfect condition.</p>
+            </div>
+
+            <div class="team-member">
+                <h3>Marcus Chen - Sales & Product Specialist</h3>
+                <p><strong>Role:</strong> Sales Associate, Product Knowledge Expert</p>
+                <p>Marcus has an encyclopedic knowledge of bikes and components. He loves helping customers find the perfect bike and is passionate about matching riders with equipment that suits their needs.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bill's Bike Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
